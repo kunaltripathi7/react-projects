@@ -122,7 +122,7 @@ function App() {
   }
 
   return (
-    <div className="bg-sky-600 min-h-dvh w-fit">
+    <div className="bg-sky-600 min-h-dvh">
       <Header />
       <InputField onAdd={handleAddJob} />
       {/* onDragEnd ->  */}
